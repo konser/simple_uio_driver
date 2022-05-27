@@ -1,5 +1,5 @@
 Run 'make' for kernel part first and insmod it into kernel by steps as followed
-1.run : cp [module_name].ko /lib/module/`uname -r`/
+1.run : cp [module_name].ko /lib/modules/`uname -r`/
 2.run : depmod
 3.run : modprobe [module_name]
 
